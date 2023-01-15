@@ -48,14 +48,12 @@ body {
   font-weight: 400;
   color: #555;
 }
-.test {
-  background-color: aqua;
-  padding: 100px;
-  /* width: 1000px; */
-  /* max-width: 1000px; */
-  max-width: 50rem;
-  padding: 4rem;
-  font-size: 2rem;
-  color: #fff;
-  /*1 rem = 16px; 500rem = 8000px  */
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hero-img {
+  width: 100%;
 }
